@@ -1,0 +1,17 @@
+.red-text {
+  color:rgb(42, 87, 173);
+}
+h1 {
+  color: green;
+}
+#main {
+  color:aqua
+}
+
+p[draggable=true]{
+  color:red;
+}
+
+* {
+  color: red
+}

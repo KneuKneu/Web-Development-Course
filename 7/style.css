@@ -18,9 +18,6 @@ p {
   padding: 0;
 }
 
-
-
-
-.white-text {
+.white-text,.green-text,.yellow-text {
   color: white;
 }

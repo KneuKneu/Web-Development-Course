@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    html {
+      background-color: #ffffff;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .painting {
+      display: grid;
+        grid-template-columns: 347px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 20px;
+        gap: 9px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .item {
+      background-color: #F0F1EC;
+    }
+
+    .red-square-above-left {
+      background-color: #E72F24;
+      grid-area: 1 / 1/ 2 / 2
+    }
+    .white-square-above-right {
+      grid-area: 1 / 5/ 2 / 2;
+      /*/ grid-column: span 3; /*/
+    }
+    .white-square-middle-left {
+      grid-area: 2 / 1 / 4 / 1
+    }
+    .white-square-middle-middle {
+      grid-area: 2 / 2 / 4 / 4
+    }
+    .blue-square-middle-right {
+      background-color: #004592;
+      grid-area: 2 / 4 / 3 / 4
+    }
+    .white-square-middle-right {
+      grid-area: 3 / 4 / 5 / 5
+    }
+    .white-square-below-left {
+      grid-area: 4 / 1 / 5 / 2
+    }
+    .yellow-square-below-middle {
+      background-color: #F9D01E;
+      grid-area: 4 / 3 / 5 / 2
+    }
+    .black-square-below-middle {
+      background-color: #232629;
+    }
+
+
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="center">
+   <div class="painting">
+      <div class="item red-square-above-left"></div>
+      <div class="item white-square-above-right"></div>
+      <div class="item white-square-middle-left"></div>
+      <div class="item white-square-middle-middle"></div>
+      <div class="item blue-square-middle-right"></div>
+      <div class="item white-square-middle-right"></div>
+      <div class="item white-square-below-left"></div>
+      <div class="item yellow-square-below-middle"></div>
+      <div class="item black-square-below-middle"></div>
+   </div>
+   </div>
+</body>
+
+</html>

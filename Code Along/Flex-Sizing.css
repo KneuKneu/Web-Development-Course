@@ -1,0 +1,11 @@
+h1 {
+    background-color: aqua;
+}
+
+.test {
+    background-color: rgb(58, 0, 219);
+    color: white;
+    font-size: larger;
+    display: flex;
+    gap: 10px;
+}

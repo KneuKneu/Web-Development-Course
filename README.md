@@ -42,4 +42,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[Bootstrap Intor (11.0)]([11.0 Bootstrap Intro](https://github.com/KneuKneu/Web-Development-Course/tree/main/11.0%20Bootstrap%20Intro))
+[Bootstrap Intor (11.0)](https://github.com/KneuKneu/Web-Development-Course/tree/main/11.0%20Bootstrap%20Intro)

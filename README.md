@@ -46,4 +46,4 @@ Please make sure to update tests as appropriate.
 
 [Drum Kit (code)!](Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html)
 
-[Drum Kit (try out)!]([Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html](https://kneukneu.github.io/Web-Development-Course/Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html))
+[Drum Kit (try out)!](https://kneukneu.github.io/Web-Development-Course/Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html)

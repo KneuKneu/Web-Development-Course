@@ -43,4 +43,7 @@ Please make sure to update tests as appropriate.
 ## License
 
 [Bootstrap Intor (11.0)](https://github.com/KneuKneu/Web-Development-Course/tree/main/11.0%20Bootstrap%20Intro)
-[Contribution guidelines for this project](Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html)
+
+[Drum Kit (code)!](Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html)
+
+[Drum Kit (try out)!]([Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html](https://kneukneu.github.io/Web-Development-Course/Drum%20Kit/Drum%20Kit%20Starting%20Files/index.html))

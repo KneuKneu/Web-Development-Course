@@ -39,6 +39,10 @@ function buttonAnimation(currentKey){
   var activeButton = document.querySelector('.' + currentKey)
   console.log('.pressed style applied?');
   activeButton.classList.add('pressed');
+
+  setTimeout(function() {
+    activeButton.classList.remove("pressed")
+  }, 100)
 }
 // Adds an addEventListener to every button
 for (i = 0; i < list.length; i++) {

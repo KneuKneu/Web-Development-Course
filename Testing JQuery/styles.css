@@ -1,0 +1,17 @@
+h1 {
+  color: yellow;
+}
+
+body {
+  background-color: darkgreen;
+}
+
+.big-title {
+  font-size: 10rem;
+  color: yellow;
+  font-family: cursive;
+}
+
+.test {
+  margin: 50px;
+}

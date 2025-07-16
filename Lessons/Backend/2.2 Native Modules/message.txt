@@ -1,0 +1,6 @@
+Hello from NodeJS!
+Hello from Lars!
+Hola from Amy!
+Bonjour from Max!
+Yellow from Phill!
+Hello from Angela!

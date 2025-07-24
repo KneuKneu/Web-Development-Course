@@ -7,7 +7,10 @@ var randomChosenColour = "";
 var level = 0;
 var gameStarted = false // needed?
 
+startGame();
 // Game starts after the user presses ANY button (required by Chrome to play a sound...)
+function startGame(){
+
 $(document).keypress(function() {
   gameStarted = true; // needed?
   // Debuggin only!
@@ -46,8 +49,12 @@ $(document).keypress(function() {
         }
       }
       else {
-        console.log('nope nope nope, start again!')
+        playSound('wrong');
+        gameOverBackground();
+        elementbyIdChangeText('level-title', 'Game Over, Press Any Key to Restart');
+        // console.log('nope nope nope, start again!')
         resetGame();
+
       }
 
     console.log('clicked color is: ' + colour);
@@ -58,7 +65,8 @@ $(document).keypress(function() {
     nextSequence();
     $(document).unbind('keypress');
 
-});
+})
+};
 
 // Functions: 
 
@@ -81,6 +89,7 @@ function resetGame(){
   gamePattern = [];
   userClickedPattern = [];  
   console.log('game is reset succesfully');
+  startGame();
 }
 
 function nextSequence() {
@@ -101,11 +110,11 @@ function randomNumber() {
   return randomNumber;
 };
 
-function playSound(colour) {
-  var audio = new Audio('sounds/' + colour + '.mp3');
+function playSound(name) {
+  var audio = new Audio('sounds/' + name + '.mp3');
   audio.play();
   //debugging only:
-  console.log("played sound for: " + colour);
+  // console.log("played sound for: " + name);
 }
 
 function animateButtonPress(currentColour){
@@ -118,4 +127,14 @@ function animateButtonPress(currentColour){
 
 function elementbyIdChangeText(id,text){
     document.getElementById(id).innerHTML = text;
+}
+
+function gameOverBackground(){
+  console.log('test, komt hij hier?')
+  var bodyElement = $("body");
+  bodyElement.addClass('game-over');
+  self.setTimeout(function(){
+  bodyElement.removeClass('game-over');
+}, 200);
+
 }

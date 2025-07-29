@@ -9,4 +9,9 @@ app.listen(3000, () => {
 app.get("/", (req, res) => {
     console.log("Hellooooooooooooooooooooooooooooooooo WORLD!")
     console.log(req.rawHeaders);
+    res.send('<h1>HELLOOO!!!</h1>');
+});
+
+app.post("/test", (req, res) => {
+        res.sendStatus(202);
 });
